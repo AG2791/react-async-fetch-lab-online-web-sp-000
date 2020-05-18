@@ -7,6 +7,6 @@ class App extends component {
   
   render() {
     <div>
-    {this.state.peopleInSpace.map
+    {this.state.peopleInSpace.map((person, id) => <h1 key ={id}>{person.name}<h1)>
   }
 }
